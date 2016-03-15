@@ -53,3 +53,6 @@
  * @see \Drupal\Core\DrupalKernel::getSitePath()
  * @see https://www.drupal.org/documentation/install/multi-site
  */
+$settings['trusted_host_patterns'] = array(
+    '^local\.selfdrupal\.com$',
+);
